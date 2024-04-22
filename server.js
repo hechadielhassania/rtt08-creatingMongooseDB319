@@ -15,8 +15,38 @@ app.use(cors())
 
 
 
+//  Routing
 
+// we want to establish CRUD routes for our Notes Model
 
+app.get('/', (req, res) => {
+    res.send('This is a Landing page')
+})
+
+//Get all Notes
+app.get('/notes', (req, res) => {
+
+})
+
+//Get a specific note by ID
+app.get('/notes/:id',(req, res) => {
+    
+})
+
+//Read //Create a note
+app.post('/notes', (req, res) => {
+    
+})
+
+//Update
+app.put('/notes/:id',(req, res) => {
+    
+})
+
+//Delete
+app.delete('/notes/:id',(req, res) => {
+    
+})
 
 
 
